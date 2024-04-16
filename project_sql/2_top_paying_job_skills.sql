@@ -17,7 +17,7 @@ WITH top_paying_jobs AS (
     LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
     WHERE
         job_title_short = 'Data Analyst' AND
-        job_location = 'Anywhere' AND
+        job_location = 'New York' AND
         salary_year_avg IS NOT NULL
     ORDER BY
         salary_year_avg DESC
@@ -36,472 +36,262 @@ ORDER BY
 /*
 Here's the breakdown of the most demanded skills for data analysts in 2023, based on job postings:
 SQL is leading with a bold count of 8.
-Python follows closely with a bold count of 7.
-Tableau is also highly sought after, with a bold count of 6.
-Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand.
+Python follows closely with a bold count of 5.
+Tableau is also highly sought after, with a bold count of 3.
+Other skills like R, oracle, hadoop, cognos, alteryx, visual basic, matlab, power bi, looker and Excel show varying degrees of demand.
 
 [
   {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
+    "job_id": 1306755,
+    "job_title": "Data Analyst (Oracle DBA)",
+    "salary_year_avg": "140000.0",
+    "company_name": "Engage Partners, Inc.",
     "skills": "sql"
   },
   {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "python"
+    "job_id": 1306755,
+    "job_title": "Data Analyst (Oracle DBA)",
+    "salary_year_avg": "140000.0",
+    "company_name": "Engage Partners, Inc.",
+    "skills": "visual basic"
   },
   {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "r"
+    "job_id": 1306755,
+    "job_title": "Data Analyst (Oracle DBA)",
+    "salary_year_avg": "140000.0",
+    "company_name": "Engage Partners, Inc.",
+    "skills": "oracle"
   },
   {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "azure"
+    "job_id": 1306755,
+    "job_title": "Data Analyst (Oracle DBA)",
+    "salary_year_avg": "140000.0",
+    "company_name": "Engage Partners, Inc.",
+    "skills": "cognos"
   },
   {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "databricks"
+    "job_id": 1306755,
+    "job_title": "Data Analyst (Oracle DBA)",
+    "salary_year_avg": "140000.0",
+    "company_name": "Engage Partners, Inc.",
+    "skills": "alteryx"
   },
   {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "aws"
-  },
-  {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "pandas"
-  },
-  {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "pyspark"
-  },
-  {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "jupyter"
-  },
-  {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "excel"
-  },
-  {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "tableau"
-  },
-  {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "power bi"
-  },
-  {
-    "job_id": 552322,
-    "job_title": "Associate Director- Data Insights",
-    "salary_year_avg": "255829.5",
-    "company_name": "AT&T",
-    "skills": "powerpoint"
-  },
-  {
-    "job_id": 99305,
-    "job_title": "Data Analyst, Marketing",
-    "salary_year_avg": "232423.0",
-    "company_name": "Pinterest Job Advertisements",
+    "job_id": 281101,
+    "job_title": "Oracle DBA/Data Analyst",
+    "salary_year_avg": "100000.0",
+    "company_name": "Pull Skill Technologies",
     "skills": "sql"
   },
   {
-    "job_id": 99305,
-    "job_title": "Data Analyst, Marketing",
-    "salary_year_avg": "232423.0",
-    "company_name": "Pinterest Job Advertisements",
+    "job_id": 281101,
+    "job_title": "Oracle DBA/Data Analyst",
+    "salary_year_avg": "100000.0",
+    "company_name": "Pull Skill Technologies",
+    "skills": "visual basic"
+  },
+  {
+    "job_id": 281101,
+    "job_title": "Oracle DBA/Data Analyst",
+    "salary_year_avg": "100000.0",
+    "company_name": "Pull Skill Technologies",
+    "skills": "oracle"
+  },
+  {
+    "job_id": 281101,
+    "job_title": "Oracle DBA/Data Analyst",
+    "salary_year_avg": "100000.0",
+    "company_name": "Pull Skill Technologies",
+    "skills": "cognos"
+  },
+  {
+    "job_id": 281101,
+    "job_title": "Oracle DBA/Data Analyst",
+    "salary_year_avg": "100000.0",
+    "company_name": "Pull Skill Technologies",
+    "skills": "alteryx"
+  },
+  {
+    "job_id": 600227,
+    "job_title": "Institutional Credit Management - AVP Data Analyst",
+    "salary_year_avg": "89830.0",
+    "company_name": "Citi",
+    "skills": "sql"
+  },
+  {
+    "job_id": 600227,
+    "job_title": "Institutional Credit Management - AVP Data Analyst",
+    "salary_year_avg": "89830.0",
+    "company_name": "Citi",
     "skills": "python"
   },
   {
-    "job_id": 99305,
-    "job_title": "Data Analyst, Marketing",
-    "salary_year_avg": "232423.0",
-    "company_name": "Pinterest Job Advertisements",
-    "skills": "r"
+    "job_id": 600227,
+    "job_title": "Institutional Credit Management - AVP Data Analyst",
+    "salary_year_avg": "89830.0",
+    "company_name": "Citi",
+    "skills": "visual basic"
   },
   {
-    "job_id": 99305,
-    "job_title": "Data Analyst, Marketing",
-    "salary_year_avg": "232423.0",
-    "company_name": "Pinterest Job Advertisements",
+    "job_id": 600227,
+    "job_title": "Institutional Credit Management - AVP Data Analyst",
+    "salary_year_avg": "89830.0",
+    "company_name": "Citi",
+    "skills": "sql server"
+  },
+  {
+    "job_id": 600227,
+    "job_title": "Institutional Credit Management - AVP Data Analyst",
+    "salary_year_avg": "89830.0",
+    "company_name": "Citi",
+    "skills": "oracle"
+  },
+  {
+    "job_id": 600227,
+    "job_title": "Institutional Credit Management - AVP Data Analyst",
+    "salary_year_avg": "89830.0",
+    "company_name": "Citi",
     "skills": "hadoop"
   },
   {
-    "job_id": 99305,
-    "job_title": "Data Analyst, Marketing",
-    "salary_year_avg": "232423.0",
-    "company_name": "Pinterest Job Advertisements",
-    "skills": "tableau"
-  },
-  {
-    "job_id": 1021647,
-    "job_title": "Data Analyst (Hybrid/Remote)",
-    "salary_year_avg": "217000.0",
-    "company_name": "Uclahealthcareers",
-    "skills": "sql"
-  },
-  {
-    "job_id": 1021647,
-    "job_title": "Data Analyst (Hybrid/Remote)",
-    "salary_year_avg": "217000.0",
-    "company_name": "Uclahealthcareers",
-    "skills": "crystal"
-  },
-  {
-    "job_id": 1021647,
-    "job_title": "Data Analyst (Hybrid/Remote)",
-    "salary_year_avg": "217000.0",
-    "company_name": "Uclahealthcareers",
-    "skills": "oracle"
-  },
-  {
-    "job_id": 1021647,
-    "job_title": "Data Analyst (Hybrid/Remote)",
-    "salary_year_avg": "217000.0",
-    "company_name": "Uclahealthcareers",
-    "skills": "tableau"
-  },
-  {
-    "job_id": 1021647,
-    "job_title": "Data Analyst (Hybrid/Remote)",
-    "salary_year_avg": "217000.0",
-    "company_name": "Uclahealthcareers",
-    "skills": "flow"
-  },
-  {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
-    "skills": "sql"
-  },
-  {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
-    "skills": "python"
-  },
-  {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
-    "skills": "go"
-  },
-  {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
-    "skills": "snowflake"
-  },
-  {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
-    "skills": "pandas"
-  },
-  {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
-    "skills": "numpy"
-  },
-  {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
+    "job_id": 600227,
+    "job_title": "Institutional Credit Management - AVP Data Analyst",
+    "salary_year_avg": "89830.0",
+    "company_name": "Citi",
     "skills": "excel"
   },
   {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
+    "job_id": 600227,
+    "job_title": "Institutional Credit Management - AVP Data Analyst",
+    "salary_year_avg": "89830.0",
+    "company_name": "Citi",
     "skills": "tableau"
   },
   {
-    "job_id": 168310,
-    "job_title": "Principal Data Analyst (Remote)",
-    "salary_year_avg": "205000.0",
-    "company_name": "SmartAsset",
-    "skills": "gitlab"
-  },
-  {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
+    "job_id": 605322,
+    "job_title": "Business Data Analyst",
+    "salary_year_avg": "80000.0",
+    "company_name": "Acadia Technologies, Inc.",
     "skills": "sql"
   },
   {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
+    "job_id": 605322,
+    "job_title": "Business Data Analyst",
+    "salary_year_avg": "80000.0",
+    "company_name": "Acadia Technologies, Inc.",
     "skills": "python"
   },
   {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "azure"
+    "job_id": 605322,
+    "job_title": "Business Data Analyst",
+    "salary_year_avg": "80000.0",
+    "company_name": "Acadia Technologies, Inc.",
+    "skills": "nosql"
   },
   {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "aws"
+    "job_id": 605322,
+    "job_title": "Business Data Analyst",
+    "salary_year_avg": "80000.0",
+    "company_name": "Acadia Technologies, Inc.",
+    "skills": "r"
   },
   {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "oracle"
+    "job_id": 605322,
+    "job_title": "Business Data Analyst",
+    "salary_year_avg": "80000.0",
+    "company_name": "Acadia Technologies, Inc.",
+    "skills": "matlab"
   },
   {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "snowflake"
+    "job_id": 659255,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "73100.0",
+    "company_name": "Knoxville Utilities Board",
+    "skills": "sql"
   },
   {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "tableau"
+    "job_id": 659255,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "73100.0",
+    "company_name": "Knoxville Utilities Board",
+    "skills": "python"
   },
   {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
+    "job_id": 659255,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "73100.0",
+    "company_name": "Knoxville Utilities Board",
     "skills": "power bi"
   },
   {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "sap"
-  },
-  {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "jenkins"
-  },
-  {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "bitbucket"
-  },
-  {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "atlassian"
-  },
-  {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "jira"
-  },
-  {
-    "job_id": 731368,
-    "job_title": "Director, Data Analyst - HYBRID",
-    "salary_year_avg": "189309.0",
-    "company_name": "Inclusively",
-    "skills": "confluence"
-  },
-  {
-    "job_id": 310660,
-    "job_title": "Principal Data Analyst, AV Performance Analysis",
-    "salary_year_avg": "189000.0",
-    "company_name": "Motional",
+    "job_id": 1684727,
+    "job_title": "Market Research & Data Analyst",
+    "salary_year_avg": "70000.0",
+    "company_name": "Siri Infosolutions Inc",
     "skills": "sql"
   },
   {
-    "job_id": 310660,
-    "job_title": "Principal Data Analyst, AV Performance Analysis",
-    "salary_year_avg": "189000.0",
-    "company_name": "Motional",
+    "job_id": 1684727,
+    "job_title": "Market Research & Data Analyst",
+    "salary_year_avg": "70000.0",
+    "company_name": "Siri Infosolutions Inc",
     "skills": "python"
   },
   {
-    "job_id": 310660,
-    "job_title": "Principal Data Analyst, AV Performance Analysis",
-    "salary_year_avg": "189000.0",
-    "company_name": "Motional",
-    "skills": "r"
-  },
-  {
-    "job_id": 310660,
-    "job_title": "Principal Data Analyst, AV Performance Analysis",
-    "salary_year_avg": "189000.0",
-    "company_name": "Motional",
-    "skills": "git"
-  },
-  {
-    "job_id": 310660,
-    "job_title": "Principal Data Analyst, AV Performance Analysis",
-    "salary_year_avg": "189000.0",
-    "company_name": "Motional",
-    "skills": "bitbucket"
-  },
-  {
-    "job_id": 310660,
-    "job_title": "Principal Data Analyst, AV Performance Analysis",
-    "salary_year_avg": "189000.0",
-    "company_name": "Motional",
-    "skills": "atlassian"
-  },
-  {
-    "job_id": 310660,
-    "job_title": "Principal Data Analyst, AV Performance Analysis",
-    "salary_year_avg": "189000.0",
-    "company_name": "Motional",
-    "skills": "jira"
-  },
-  {
-    "job_id": 310660,
-    "job_title": "Principal Data Analyst, AV Performance Analysis",
-    "salary_year_avg": "189000.0",
-    "company_name": "Motional",
-    "skills": "confluence"
-  },
-  {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
-    "skills": "sql"
-  },
-  {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
-    "skills": "python"
-  },
-  {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
-    "skills": "go"
-  },
-  {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
-    "skills": "snowflake"
-  },
-  {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
-    "skills": "pandas"
-  },
-  {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
-    "skills": "numpy"
-  },
-  {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
+    "job_id": 1684727,
+    "job_title": "Market Research & Data Analyst",
+    "salary_year_avg": "70000.0",
+    "company_name": "Siri Infosolutions Inc",
     "skills": "excel"
   },
   {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
+    "job_id": 1684727,
+    "job_title": "Market Research & Data Analyst",
+    "salary_year_avg": "70000.0",
+    "company_name": "Siri Infosolutions Inc",
     "skills": "tableau"
   },
   {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "salary_year_avg": "186000.0",
-    "company_name": "SmartAsset",
-    "skills": "gitlab"
+    "job_id": 1684727,
+    "job_title": "Market Research & Data Analyst",
+    "salary_year_avg": "70000.0",
+    "company_name": "Siri Infosolutions Inc",
+    "skills": "looker"
   },
   {
-    "job_id": 387860,
-    "job_title": "ERM Data Analyst",
-    "salary_year_avg": "184000.0",
-    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 1795958,
+    "job_title": "Data analyst",
+    "salary_year_avg": "65000.0",
+    "company_name": "Montefiore Medical Center",
+    "skills": "excel"
+  },
+  {
+    "job_id": 39074,
+    "job_title": "Institutional Credit Management - Data Analyst",
+    "salary_year_avg": "53620.0",
+    "company_name": "Citi",
     "skills": "sql"
   },
   {
-    "job_id": 387860,
-    "job_title": "ERM Data Analyst",
-    "salary_year_avg": "184000.0",
-    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 39074,
+    "job_title": "Institutional Credit Management - Data Analyst",
+    "salary_year_avg": "53620.0",
+    "company_name": "Citi",
     "skills": "python"
   },
   {
-    "job_id": 387860,
-    "job_title": "ERM Data Analyst",
-    "salary_year_avg": "184000.0",
-    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 39074,
+    "job_title": "Institutional Credit Management - Data Analyst",
+    "salary_year_avg": "53620.0",
+    "company_name": "Citi",
     "skills": "r"
+  },
+  {
+    "job_id": 39074,
+    "job_title": "Institutional Credit Management - Data Analyst",
+    "salary_year_avg": "53620.0",
+    "company_name": "Citi",
+    "skills": "tableau"
   }
 ]
 */
