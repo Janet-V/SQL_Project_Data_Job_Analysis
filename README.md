@@ -3,7 +3,7 @@ This project explores top-paying jobs, in-demand skills, and where high demand m
 
 Check out the SQL queries here: [project_sql folder](/project_sql/)
 
-Data hails from my [SQL Course](https://youtu.be/7mz73uXD9DA?si=L6oeCe9M3p96ddlQ)
+Data hails from the [SQL Course](https://youtu.be/7mz73uXD9DA?si=L6oeCe9M3p96ddlQ)
 
 # Tools I used
 * SQL
